@@ -7,15 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136DA0E225C04C708F5FDB96 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE660C3D9A33FCE8365BC606 /* UsersListViewController.swift */; };
+		20800FEEE50A24D2E1461B86 /* UsersListInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8A3F8869E5416B08B27D2 /* UsersListInteractorOutput.swift */; };
+		25841EDA1BEAAA695EC33A60 /* UsersListModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5AD7DF41A61ED05C0F45E /* UsersListModuleInput.swift */; };
 		2F48D9A828C8634300316F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9A728C8634300316F98 /* AppDelegate.swift */; };
 		2F48D9AA28C8634300316F98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9A928C8634300316F98 /* SceneDelegate.swift */; };
-		2F48D9AC28C8634300316F98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9AB28C8634300316F98 /* ViewController.swift */; };
-		2F48D9AF28C8634300316F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F48D9AD28C8634300316F98 /* Main.storyboard */; };
 		2F48D9B128C8634400316F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F48D9B028C8634400316F98 /* Assets.xcassets */; };
 		2F48D9B428C8634400316F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F48D9B228C8634400316F98 /* LaunchScreen.storyboard */; };
 		2F48D9BF28C8634400316F98 /* JustoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9BE28C8634400316F98 /* JustoTests.swift */; };
 		2F48D9C928C8634400316F98 /* JustoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9C828C8634400316F98 /* JustoUITests.swift */; };
 		2F48D9CB28C8634400316F98 /* JustoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9CA28C8634400316F98 /* JustoUITestsLaunchTests.swift */; };
+		2F48D9D928C866B800316F98 /* JustoUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2F48D9D828C866B800316F98 /* JustoUI */; };
+		2F48D9DB28C8671D00316F98 /* JustoNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 2F48D9DA28C8671D00316F98 /* JustoNetworking */; };
+		2F48D9E128C86A3300316F98 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9E028C86A3300316F98 /* NetworkingService.swift */; };
+		2F48D9E528C86A6F00316F98 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9E428C86A6F00316F98 /* Host.swift */; };
+		2F48D9E728C86A8200316F98 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9E628C86A8200316F98 /* ErrorResponse.swift */; };
+		2F48D9E928C86A9600316F98 /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F48D9E828C86A9600316F98 /* Users.storyboard */; };
+		2F48D9EC28C86AC200316F98 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9EB28C86AC200316F98 /* Routable.swift */; };
+		2F48D9EF28C86AE400316F98 /* JSONUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9EE28C86AE400316F98 /* JSONUtility.swift */; };
+		2F48D9F128C86B0900316F98 /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9F028C86B0900316F98 /* StoryboardIdentifiable.swift */; };
+		2F48D9F328C86B1E00316F98 /* UIStoryboard+StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9F228C86B1D00316F98 /* UIStoryboard+StoryboardIdentifiable.swift */; };
+		2F48D9F528C86B3300316F98 /* UIStoryboard+Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9F428C86B3300316F98 /* UIStoryboard+Storyboards.swift */; };
+		2F48D9F828C86C7C00316F98 /* MainNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F48D9F728C86C7C00316F98 /* MainNavigation.storyboard */; };
+		2F48D9FC28C86E8500316F98 /* UsersStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9FB28C86E8500316F98 /* UsersStrings.swift */; };
+		2F48DA0028C86F1D00316F98 /* UsersListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48D9FF28C86F1D00316F98 /* UsersListTableViewCell.swift */; };
+		2F48DA0228C86F5700316F98 /* UsersListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F48DA0128C86F5700316F98 /* UsersListTableViewCell.xib */; };
+		2F48DA0728C86FF600316F98 /* UserListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48DA0628C86FF600316F98 /* UserListResponse.swift */; };
+		2F48DA0928C870CD00316F98 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48DA0828C870CD00316F98 /* User.swift */; };
+		2F48DA0B28C870D300316F98 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48DA0A28C870D300316F98 /* Info.swift */; };
+		2F48DA0E28C874FB00316F98 /* UsersClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48DA0D28C874FB00316F98 /* UsersClient.swift */; };
+		2F48DA1028C8750B00316F98 /* UsersResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48DA0F28C8750B00316F98 /* UsersResource.swift */; };
+		3B1EE74447B7497B5A31D4D8 /* MainTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8499E99AD378A03EAD2C31 /* MainTabBarInteractor.swift */; };
+		457F736991F96B8F04478EE9 /* UsersListInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11ACB6BEF045CE7A805FD4 /* UsersListInteractorTest.swift */; };
+		4BFA9349DCE38E9EDBEBCADD /* MainTabBarInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B673170E5BFAF6E3B59A48B /* MainTabBarInteractorInput.swift */; };
+		4F9F75370EF8B02E125ADBD1 /* MainTabBarConfiguratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C553FE7810CF1662B95113 /* MainTabBarConfiguratorTest.swift */; };
+		59144CEAC2453271B90B19EF /* MainTabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ED90E0658CDBB19179B315 /* MainTabBarConfigurator.swift */; };
+		5D05DD6DE732C42FD3DDFD1D /* UsersListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90743B1C735603FE6C87A7 /* UsersListConfigurator.swift */; };
+		5ED93A9186DC9F59874D91D5 /* UsersListConfiguratorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05824C6C5502CA70FFE0967 /* UsersListConfiguratorTest.swift */; };
+		663F26268B8AFEF7D125308F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B5EB5C2A8FAB7BE4F031E /* MainTabBarViewController.swift */; };
+		7252217A2F78D16217EC8C61 /* UsersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2415CE752D21106C1024D0 /* UsersListPresenter.swift */; };
+		75BE542F03C30853F656E5CE /* MainTabBarInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768ED3FE146484B4CD8CFE8C /* MainTabBarInteractorOutput.swift */; };
+		7F2DEBC162BCFE91C4CB4EB3 /* UsersListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E66ADA3AA3D9B6455C9F25D /* UsersListInteractorInput.swift */; };
+		89D1198FEC10031F0C1FCADE /* UsersListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912DB7AA8831CCA7AE03F72E /* UsersListViewOutput.swift */; };
+		94B776D54DC08DD0A466D85C /* UsersListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876102C0EF9BE24AA83B0DB3 /* UsersListRouterInput.swift */; };
+		95E74B1D66AC863F30BDE28D /* MainTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F815C7ED7B6FB00E4FAD8D /* MainTabBarPresenter.swift */; };
+		98E866D3E0A669E9EEC69A3F /* UsersListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCCFDA94826D9C6B5A89F77 /* UsersListRouter.swift */; };
+		B40B8A64ECCB250EEDA3B86C /* MainTabBarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D86360B7C788581924862A /* MainTabBarViewOutput.swift */; };
+		BD301F3154A971F4F7B8EDAD /* UsersListViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F42459575D38C39AA6668 /* UsersListViewTest.swift */; };
+		C188CEA1535BEC1A4129B874 /* UsersListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3861C1D74D2F1AD7DF22CD3E /* UsersListViewInput.swift */; };
+		C8A7587C08800F6493FA723F /* UsersListInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6830C3E828C4B1FE1F34A4E /* UsersListInitializer.swift */; };
+		CAC431F2D577E5253E6B18C9 /* MainTabBarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B315477857A213C5F4DF8D /* MainTabBarInitializer.swift */; };
+		D326EFBFAE23096C232F6BEA /* UsersListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F674B7884D725B93678A62 /* UsersListPresenterTest.swift */; };
+		DBE196A4A36998FD58947F3A /* MainTabBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B471A8563D030F212A45E1 /* MainTabBarViewInput.swift */; };
+		DED3C4D9EFFAED495A858451 /* MainTabBarPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04997E2AFCF7C0B907F58744 /* MainTabBarPresenterTest.swift */; };
+		E09FD4CBDFE99084E1A5CA28 /* MainTabBarRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D377306E5C7F8BCB50A0489 /* MainTabBarRouterInput.swift */; };
+		E38E29604497D8CAE36F7161 /* MainTabBarViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A4ABA09D32E5EDDA78542D /* MainTabBarViewTest.swift */; };
+		E4A8B4AAF346BF6D91A5831A /* UsersListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD201AA4FBD8BAF989A7EAAA /* UsersListInteractor.swift */; };
+		E8E9272D5CDEF679AABFDD4A /* MainTabBarInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D6214D197E2B71917E524 /* MainTabBarInteractorTest.swift */; };
+		F44D73E4CA7381D7CFE76DD3 /* UsersListRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF696C135957848B37B9C0B4 /* UsersListRouterTest.swift */; };
+		F87CB6F985EF3DD7DF8B7B35 /* MainTabBarRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADF019D553054D4A96D622 /* MainTabBarRouterTest.swift */; };
+		F8BB2DB8815E769A6D658CBA /* MainTabBarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7A754C049BDE3C1B2562A /* MainTabBarModuleInput.swift */; };
+		FD181AC3E98F37ECDB40691E /* MainTabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78EE619344D3F81093C9FFF /* MainTabBarRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +88,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04997E2AFCF7C0B907F58744 /* MainTabBarPresenterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenterTest.swift; sourceTree = "<group>"; };
+		0B673170E5BFAF6E3B59A48B /* MainTabBarInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractorInput.swift; sourceTree = "<group>"; };
+		197F42459575D38C39AA6668 /* UsersListViewTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListViewTest.swift; sourceTree = "<group>"; };
+		1C6B5EB5C2A8FAB7BE4F031E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		1D377306E5C7F8BCB50A0489 /* MainTabBarRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarRouterInput.swift; sourceTree = "<group>"; };
+		1E66ADA3AA3D9B6455C9F25D /* UsersListInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListInteractorInput.swift; sourceTree = "<group>"; };
+		29C553FE7810CF1662B95113 /* MainTabBarConfiguratorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarConfiguratorTest.swift; sourceTree = "<group>"; };
+		2E11ACB6BEF045CE7A805FD4 /* UsersListInteractorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListInteractorTest.swift; sourceTree = "<group>"; };
 		2F48D9A428C8634300316F98 /* Justo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Justo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F48D9A728C8634300316F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F48D9A928C8634300316F98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F48D9AB28C8634300316F98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2F48D9AE28C8634300316F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F48D9B028C8634400316F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F48D9B328C8634400316F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F48D9B528C8634400316F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +107,50 @@
 		2F48D9C428C8634400316F98 /* JustoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F48D9C828C8634400316F98 /* JustoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoUITests.swift; sourceTree = "<group>"; };
 		2F48D9CA28C8634400316F98 /* JustoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F48D9E028C86A3300316F98 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		2F48D9E428C86A6F00316F98 /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		2F48D9E628C86A8200316F98 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		2F48D9E828C86A9600316F98 /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		2F48D9EB28C86AC200316F98 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		2F48D9EE28C86AE400316F98 /* JSONUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtility.swift; sourceTree = "<group>"; };
+		2F48D9F028C86B0900316F98 /* StoryboardIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiable.swift; sourceTree = "<group>"; };
+		2F48D9F228C86B1D00316F98 /* UIStoryboard+StoryboardIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+StoryboardIdentifiable.swift"; sourceTree = "<group>"; };
+		2F48D9F428C86B3300316F98 /* UIStoryboard+Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Storyboards.swift"; sourceTree = "<group>"; };
+		2F48D9F728C86C7C00316F98 /* MainNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainNavigation.storyboard; sourceTree = "<group>"; };
+		2F48D9FB28C86E8500316F98 /* UsersStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersStrings.swift; sourceTree = "<group>"; };
+		2F48D9FF28C86F1D00316F98 /* UsersListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListTableViewCell.swift; sourceTree = "<group>"; };
+		2F48DA0128C86F5700316F98 /* UsersListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersListTableViewCell.xib; sourceTree = "<group>"; };
+		2F48DA0628C86FF600316F98 /* UserListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListResponse.swift; sourceTree = "<group>"; };
+		2F48DA0828C870CD00316F98 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2F48DA0A28C870D300316F98 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		2F48DA0D28C874FB00316F98 /* UsersClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersClient.swift; sourceTree = "<group>"; };
+		2F48DA0F28C8750B00316F98 /* UsersResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResource.swift; sourceTree = "<group>"; };
+		3861C1D74D2F1AD7DF22CD3E /* UsersListViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListViewInput.swift; sourceTree = "<group>"; };
+		3C2415CE752D21106C1024D0 /* UsersListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListPresenter.swift; sourceTree = "<group>"; };
+		3D2D6214D197E2B71917E524 /* MainTabBarInteractorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractorTest.swift; sourceTree = "<group>"; };
+		3DCCFDA94826D9C6B5A89F77 /* UsersListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListRouter.swift; sourceTree = "<group>"; };
+		4EF7A754C049BDE3C1B2562A /* MainTabBarModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarModuleInput.swift; sourceTree = "<group>"; };
+		51B471A8563D030F212A45E1 /* MainTabBarViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewInput.swift; sourceTree = "<group>"; };
+		61F674B7884D725B93678A62 /* UsersListPresenterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListPresenterTest.swift; sourceTree = "<group>"; };
+		768ED3FE146484B4CD8CFE8C /* MainTabBarInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractorOutput.swift; sourceTree = "<group>"; };
+		7ED8A3F8869E5416B08B27D2 /* UsersListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListInteractorOutput.swift; sourceTree = "<group>"; };
+		81B315477857A213C5F4DF8D /* MainTabBarInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInitializer.swift; sourceTree = "<group>"; };
+		83ADF019D553054D4A96D622 /* MainTabBarRouterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarRouterTest.swift; sourceTree = "<group>"; };
+		876102C0EF9BE24AA83B0DB3 /* UsersListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListRouterInput.swift; sourceTree = "<group>"; };
+		8F8499E99AD378A03EAD2C31 /* MainTabBarInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractor.swift; sourceTree = "<group>"; };
+		912DB7AA8831CCA7AE03F72E /* UsersListViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListViewOutput.swift; sourceTree = "<group>"; };
+		A6830C3E828C4B1FE1F34A4E /* UsersListInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListInitializer.swift; sourceTree = "<group>"; };
+		AE90743B1C735603FE6C87A7 /* UsersListConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListConfigurator.swift; sourceTree = "<group>"; };
+		BD201AA4FBD8BAF989A7EAAA /* UsersListInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListInteractor.swift; sourceTree = "<group>"; };
+		BF696C135957848B37B9C0B4 /* UsersListRouterTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListRouterTest.swift; sourceTree = "<group>"; };
+		C9D86360B7C788581924862A /* MainTabBarViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewOutput.swift; sourceTree = "<group>"; };
+		D7F5AD7DF41A61ED05C0F45E /* UsersListModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListModuleInput.swift; sourceTree = "<group>"; };
+		D9ED90E0658CDBB19179B315 /* MainTabBarConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarConfigurator.swift; sourceTree = "<group>"; };
+		DE660C3D9A33FCE8365BC606 /* UsersListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		F05824C6C5502CA70FFE0967 /* UsersListConfiguratorTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UsersListConfiguratorTest.swift; sourceTree = "<group>"; };
+		F2A4ABA09D32E5EDDA78542D /* MainTabBarViewTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarViewTest.swift; sourceTree = "<group>"; };
+		F6F815C7ED7B6FB00E4FAD8D /* MainTabBarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenter.swift; sourceTree = "<group>"; };
+		F78EE619344D3F81093C9FFF /* MainTabBarRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainTabBarRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +158,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F48D9DB28C8671D00316F98 /* JustoNetworking in Frameworks */,
+				2F48D9D928C866B800316F98 /* JustoUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +180,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0285AFD549BD73748BF4BD9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				197F42459575D38C39AA6668 /* UsersListViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043D1B28719CC91F6D35BE2C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2E11ACB6BEF045CE7A805FD4 /* UsersListInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		18740E579F5B7C9C620D58F8 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F05824C6C5502CA70FFE0967 /* UsersListConfiguratorTest.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		22D33BC073844192BBC687B1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8E6EA31C1F7743606A162DF8 /* UsersList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2957293EFB7935B5DD13324C /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				AE90743B1C735603FE6C87A7 /* UsersListConfigurator.swift */,
+				A6830C3E828C4B1FE1F34A4E /* UsersListInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		2F48D99B28C8634300316F98 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +228,7 @@
 				2F48D9BD28C8634400316F98 /* JustoTests */,
 				2F48D9C728C8634400316F98 /* JustoUITests */,
 				2F48D9A528C8634300316F98 /* Products */,
+				2F48D9D728C866B800316F98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +245,13 @@
 		2F48D9A628C8634300316F98 /* Justo */ = {
 			isa = PBXGroup;
 			children = (
+				2F48D9DC28C86A0E00316F98 /* Common */,
 				2F48D9A728C8634300316F98 /* AppDelegate.swift */,
 				2F48D9A928C8634300316F98 /* SceneDelegate.swift */,
-				2F48D9AB28C8634300316F98 /* ViewController.swift */,
-				2F48D9AD28C8634300316F98 /* Main.storyboard */,
 				2F48D9B028C8634400316F98 /* Assets.xcassets */,
 				2F48D9B228C8634400316F98 /* LaunchScreen.storyboard */,
 				2F48D9B528C8634400316F98 /* Info.plist */,
+				B5A3F78CCFD2E68C82636523 /* Features */,
 			);
 			path = Justo;
 			sourceTree = "<group>";
@@ -114,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				2F48D9BE28C8634400316F98 /* JustoTests.swift */,
+				B971C7A504A9344BC368614D /* Features */,
 			);
 			path = JustoTests;
 			sourceTree = "<group>";
@@ -125,6 +272,445 @@
 				2F48D9CA28C8634400316F98 /* JustoUITestsLaunchTests.swift */,
 			);
 			path = JustoUITests;
+			sourceTree = "<group>";
+		};
+		2F48D9D728C866B800316F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F48D9DC28C86A0E00316F98 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9F628C86C5C00316F98 /* Modules */,
+				2F48D9ED28C86AD700316F98 /* Extensions */,
+				2F48D9EA28C86AB400316F98 /* Navigation */,
+				2F48D9DE28C86A1D00316F98 /* Services */,
+				2F48D9DD28C86A1100316F98 /* Storyboards */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2F48D9DD28C86A1100316F98 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9E828C86A9600316F98 /* Users.storyboard */,
+				2F48D9F728C86C7C00316F98 /* MainNavigation.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2F48D9DE28C86A1D00316F98 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9E228C86A4B00316F98 /* Entity */,
+				2F48D9DF28C86A2500316F98 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2F48D9DF28C86A2500316F98 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9E028C86A3300316F98 /* NetworkingService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2F48D9E228C86A4B00316F98 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9E328C86A6500316F98 /* Models */,
+				2F48D9E428C86A6F00316F98 /* Host.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2F48D9E328C86A6500316F98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9E628C86A8200316F98 /* ErrorResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F48D9EA28C86AB400316F98 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9EB28C86AC200316F98 /* Routable.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2F48D9ED28C86AD700316F98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9EE28C86AE400316F98 /* JSONUtility.swift */,
+				2F48D9F028C86B0900316F98 /* StoryboardIdentifiable.swift */,
+				2F48D9F228C86B1D00316F98 /* UIStoryboard+StoryboardIdentifiable.swift */,
+				2F48D9F428C86B3300316F98 /* UIStoryboard+Storyboards.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2F48D9F628C86C5C00316F98 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				930139AE9B3FF3BE69C6CEDB /* MainTabBar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2F48D9F928C86E7100316F98 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				2F48DA0C28C874E300316F98 /* Entity */,
+				2F48D9FA28C86E7900316F98 /* Strings */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		2F48D9FA28C86E7900316F98 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9FB28C86E8500316F98 /* UsersStrings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		2F48D9FD28C86EF100316F98 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9FF28C86F1D00316F98 /* UsersListTableViewCell.swift */,
+				2F48DA0128C86F5700316F98 /* UsersListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2F48DA0328C86FB700316F98 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2F48DA0428C86FBF00316F98 /* Model */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2F48DA0428C86FBF00316F98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F48DA0628C86FF600316F98 /* UserListResponse.swift */,
+				2F48DA0828C870CD00316F98 /* User.swift */,
+				2F48DA0A28C870D300316F98 /* Info.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F48DA0C28C874E300316F98 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2F48DA0D28C874FB00316F98 /* UsersClient.swift */,
+				2F48DA0F28C8750B00316F98 /* UsersResource.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		30A86497706FA551741B6DA3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				04997E2AFCF7C0B907F58744 /* MainTabBarPresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		36572DB54A4A3A5CAA3E0639 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3DCCFDA94826D9C6B5A89F77 /* UsersListRouter.swift */,
+				876102C0EF9BE24AA83B0DB3 /* UsersListRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4350DD15A081580A1FC6C8FD /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F78EE619344D3F81093C9FFF /* MainTabBarRouter.swift */,
+				1D377306E5C7F8BCB50A0489 /* MainTabBarRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		43D55E1DD5F219778BDD838A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D6214D197E2B71917E524 /* MainTabBarInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4795256A72C61AEED9EA2EFF /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				90823359180A588A712187B6 /* Modules */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		515B61344372C5B6E2FB1C52 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				DA1C53CBC8E60B0C2D610D07 /* Presenter */,
+				4350DD15A081580A1FC6C8FD /* Router */,
+				DEF424EB2AA0FDCAA47C2C7D /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		57750B4C20B9D5B9DC8A415D /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				18740E579F5B7C9C620D58F8 /* Configurator */,
+				043D1B28719CC91F6D35BE2C /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		58A0D8FC7782160D712BDD28 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				594A3EDF472A6694702D96DC /* Configurator */,
+				43D55E1DD5F219778BDD838A /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		594A3EDF472A6694702D96DC /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				29C553FE7810CF1662B95113 /* MainTabBarConfiguratorTest.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		643D2404134D94655CEEE342 /* UsersList */ = {
+			isa = PBXGroup;
+			children = (
+				57750B4C20B9D5B9DC8A415D /* Application Logic */,
+				FAAB4E04B4A024C4652E70D1 /* User Interface */,
+			);
+			path = UsersList;
+			sourceTree = "<group>";
+		};
+		7B75A91232A8D6E6DE658AB6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				83ADF019D553054D4A96D622 /* MainTabBarRouterTest.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8A774DBB8F4C2BED61FB2D5C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				61F674B7884D725B93678A62 /* UsersListPresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8CAA8BDC85A952836930FE32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9FD28C86EF100316F98 /* Cell */,
+				DE660C3D9A33FCE8365BC606 /* UsersListViewController.swift */,
+				3861C1D74D2F1AD7DF22CD3E /* UsersListViewInput.swift */,
+				912DB7AA8831CCA7AE03F72E /* UsersListViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E6EA31C1F7743606A162DF8 /* UsersList */ = {
+			isa = PBXGroup;
+			children = (
+				B126CB6AC51A5E4323136315 /* Application Logic */,
+				BCDDD10D48DC5505FFBE53FD /* User Interface */,
+			);
+			path = UsersList;
+			sourceTree = "<group>";
+		};
+		90823359180A588A712187B6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				643D2404134D94655CEEE342 /* UsersList */,
+				DC971847449D14B08FDD2896 /* MainTabBar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		930139AE9B3FF3BE69C6CEDB /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E7F0732C2EAC16B79A6718B7 /* Application Logic */,
+				515B61344372C5B6E2FB1C52 /* User Interface */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		9F30983CA06CFBFBC0C325EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2A4ABA09D32E5EDDA78542D /* MainTabBarViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A07F9645C6FEF804C3706D20 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				D9ED90E0658CDBB19179B315 /* MainTabBarConfigurator.swift */,
+				81B315477857A213C5F4DF8D /* MainTabBarInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A118CC5FC237A7BCC65FEC73 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BF696C135957848B37B9C0B4 /* UsersListRouterTest.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B126CB6AC51A5E4323136315 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2F48DA0328C86FB700316F98 /* Entity */,
+				2957293EFB7935B5DD13324C /* Configurator */,
+				CFE6B0AA0A381AC9EB1BCC3D /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		B5A3F78CCFD2E68C82636523 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D56B77335EBC9D2A315DB462 /* Users */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B971C7A504A9344BC368614D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4795256A72C61AEED9EA2EFF /* Users */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BCDDD10D48DC5505FFBE53FD /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				F82E6D1F52727ABF5A7C46BC /* Presenter */,
+				36572DB54A4A3A5CAA3E0639 /* Router */,
+				8CAA8BDC85A952836930FE32 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		C03C7E1EBFA826B5B283A0AD /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7B75A91232A8D6E6DE658AB6 /* Router */,
+				30A86497706FA551741B6DA3 /* Presenter */,
+				9F30983CA06CFBFBC0C325EB /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		CFE6B0AA0A381AC9EB1BCC3D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BD201AA4FBD8BAF989A7EAAA /* UsersListInteractor.swift */,
+				1E66ADA3AA3D9B6455C9F25D /* UsersListInteractorInput.swift */,
+				7ED8A3F8869E5416B08B27D2 /* UsersListInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D56B77335EBC9D2A315DB462 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				2F48D9F928C86E7100316F98 /* Commons */,
+				22D33BC073844192BBC687B1 /* Modules */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		DA1C53CBC8E60B0C2D610D07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4EF7A754C049BDE3C1B2562A /* MainTabBarModuleInput.swift */,
+				F6F815C7ED7B6FB00E4FAD8D /* MainTabBarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC971847449D14B08FDD2896 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				58A0D8FC7782160D712BDD28 /* Application Logic */,
+				C03C7E1EBFA826B5B283A0AD /* User Interface */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		DEF424EB2AA0FDCAA47C2C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C6B5EB5C2A8FAB7BE4F031E /* MainTabBarViewController.swift */,
+				51B471A8563D030F212A45E1 /* MainTabBarViewInput.swift */,
+				C9D86360B7C788581924862A /* MainTabBarViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E769D15C6D94E9603C127861 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8F8499E99AD378A03EAD2C31 /* MainTabBarInteractor.swift */,
+				0B673170E5BFAF6E3B59A48B /* MainTabBarInteractorInput.swift */,
+				768ED3FE146484B4CD8CFE8C /* MainTabBarInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E7F0732C2EAC16B79A6718B7 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A07F9645C6FEF804C3706D20 /* Configurator */,
+				E769D15C6D94E9603C127861 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		F82E6D1F52727ABF5A7C46BC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D7F5AD7DF41A61ED05C0F45E /* UsersListModuleInput.swift */,
+				3C2415CE752D21106C1024D0 /* UsersListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FAAB4E04B4A024C4652E70D1 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A118CC5FC237A7BCC65FEC73 /* Router */,
+				8A774DBB8F4C2BED61FB2D5C /* Presenter */,
+				0285AFD549BD73748BF4BD9F /* View */,
+			);
+			path = "User Interface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +729,10 @@
 			dependencies = (
 			);
 			name = Justo;
+			packageProductDependencies = (
+				2F48D9D828C866B800316F98 /* JustoUI */,
+				2F48D9DA28C8671D00316F98 /* JustoNetworking */,
+			);
 			productName = Justo;
 			productReference = 2F48D9A428C8634300316F98 /* Justo.app */;
 			productType = "com.apple.product-type.application";
@@ -231,9 +821,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F48DA0228C86F5700316F98 /* UsersListTableViewCell.xib in Resources */,
+				2F48D9E928C86A9600316F98 /* Users.storyboard in Resources */,
+				2F48D9F828C86C7C00316F98 /* MainNavigation.storyboard in Resources */,
 				2F48D9B428C8634400316F98 /* LaunchScreen.storyboard in Resources */,
 				2F48D9B128C8634400316F98 /* Assets.xcassets in Resources */,
-				2F48D9AF28C8634300316F98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +850,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F48D9AC28C8634300316F98 /* ViewController.swift in Sources */,
+				2F48D9F128C86B0900316F98 /* StoryboardIdentifiable.swift in Sources */,
+				2F48D9E728C86A8200316F98 /* ErrorResponse.swift in Sources */,
+				2F48D9EC28C86AC200316F98 /* Routable.swift in Sources */,
+				2F48DA0B28C870D300316F98 /* Info.swift in Sources */,
+				2F48D9FC28C86E8500316F98 /* UsersStrings.swift in Sources */,
+				2F48D9E128C86A3300316F98 /* NetworkingService.swift in Sources */,
 				2F48D9A828C8634300316F98 /* AppDelegate.swift in Sources */,
+				2F48D9F328C86B1E00316F98 /* UIStoryboard+StoryboardIdentifiable.swift in Sources */,
+				2F48D9EF28C86AE400316F98 /* JSONUtility.swift in Sources */,
 				2F48D9AA28C8634300316F98 /* SceneDelegate.swift in Sources */,
+				2F48D9E528C86A6F00316F98 /* Host.swift in Sources */,
+				2F48D9F528C86B3300316F98 /* UIStoryboard+Storyboards.swift in Sources */,
+				5D05DD6DE732C42FD3DDFD1D /* UsersListConfigurator.swift in Sources */,
+				2F48DA1028C8750B00316F98 /* UsersResource.swift in Sources */,
+				2F48DA0028C86F1D00316F98 /* UsersListTableViewCell.swift in Sources */,
+				C8A7587C08800F6493FA723F /* UsersListInitializer.swift in Sources */,
+				E4A8B4AAF346BF6D91A5831A /* UsersListInteractor.swift in Sources */,
+				7F2DEBC162BCFE91C4CB4EB3 /* UsersListInteractorInput.swift in Sources */,
+				20800FEEE50A24D2E1461B86 /* UsersListInteractorOutput.swift in Sources */,
+				25841EDA1BEAAA695EC33A60 /* UsersListModuleInput.swift in Sources */,
+				2F48DA0928C870CD00316F98 /* User.swift in Sources */,
+				7252217A2F78D16217EC8C61 /* UsersListPresenter.swift in Sources */,
+				98E866D3E0A669E9EEC69A3F /* UsersListRouter.swift in Sources */,
+				94B776D54DC08DD0A466D85C /* UsersListRouterInput.swift in Sources */,
+				136DA0E225C04C708F5FDB96 /* UsersListViewController.swift in Sources */,
+				C188CEA1535BEC1A4129B874 /* UsersListViewInput.swift in Sources */,
+				2F48DA0728C86FF600316F98 /* UserListResponse.swift in Sources */,
+				89D1198FEC10031F0C1FCADE /* UsersListViewOutput.swift in Sources */,
+				59144CEAC2453271B90B19EF /* MainTabBarConfigurator.swift in Sources */,
+				CAC431F2D577E5253E6B18C9 /* MainTabBarInitializer.swift in Sources */,
+				3B1EE74447B7497B5A31D4D8 /* MainTabBarInteractor.swift in Sources */,
+				4BFA9349DCE38E9EDBEBCADD /* MainTabBarInteractorInput.swift in Sources */,
+				75BE542F03C30853F656E5CE /* MainTabBarInteractorOutput.swift in Sources */,
+				F8BB2DB8815E769A6D658CBA /* MainTabBarModuleInput.swift in Sources */,
+				2F48DA0E28C874FB00316F98 /* UsersClient.swift in Sources */,
+				95E74B1D66AC863F30BDE28D /* MainTabBarPresenter.swift in Sources */,
+				FD181AC3E98F37ECDB40691E /* MainTabBarRouter.swift in Sources */,
+				E09FD4CBDFE99084E1A5CA28 /* MainTabBarRouterInput.swift in Sources */,
+				663F26268B8AFEF7D125308F /* MainTabBarViewController.swift in Sources */,
+				DBE196A4A36998FD58947F3A /* MainTabBarViewInput.swift in Sources */,
+				B40B8A64ECCB250EEDA3B86C /* MainTabBarViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +908,16 @@
 			files = (
 				2F48D9CB28C8634400316F98 /* JustoUITestsLaunchTests.swift in Sources */,
 				2F48D9C928C8634400316F98 /* JustoUITests.swift in Sources */,
+				5ED93A9186DC9F59874D91D5 /* UsersListConfiguratorTest.swift in Sources */,
+				457F736991F96B8F04478EE9 /* UsersListInteractorTest.swift in Sources */,
+				F44D73E4CA7381D7CFE76DD3 /* UsersListRouterTest.swift in Sources */,
+				D326EFBFAE23096C232F6BEA /* UsersListPresenterTest.swift in Sources */,
+				BD301F3154A971F4F7B8EDAD /* UsersListViewTest.swift in Sources */,
+				4F9F75370EF8B02E125ADBD1 /* MainTabBarConfiguratorTest.swift in Sources */,
+				E8E9272D5CDEF679AABFDD4A /* MainTabBarInteractorTest.swift in Sources */,
+				F87CB6F985EF3DD7DF8B7B35 /* MainTabBarRouterTest.swift in Sources */,
+				DED3C4D9EFFAED495A858451 /* MainTabBarPresenterTest.swift in Sources */,
+				E38E29604497D8CAE36F7161 /* MainTabBarViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +937,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2F48D9AD28C8634300316F98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F48D9AE28C8634300316F98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2F48D9B228C8634400316F98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +1074,6 @@
 				INFOPLIST_FILE = Justo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +1101,6 @@
 				INFOPLIST_FILE = Justo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +1232,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F48D9D828C866B800316F98 /* JustoUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JustoUI;
+		};
+		2F48D9DA28C8671D00316F98 /* JustoNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JustoNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F48D99C28C8634300316F98 /* Project object */;
 }

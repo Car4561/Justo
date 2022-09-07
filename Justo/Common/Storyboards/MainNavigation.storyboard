@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ocv-nb-AIN">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Tab Bar View Controller-->
+        <scene sceneID="VcC-iG-FcB">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarViewController" id="ocv-nb-AIN" customClass="MainTabBarViewController" customModule="Justo" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HYV-TK-2nj"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="V4o-WX-Gdh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="tabBarMenu" destination="V4o-WX-Gdh" id="tbn-FE-Pa1"/>
+                        <segue destination="FlT-Do-40E" kind="relationship" relationship="viewControllers" id="PfT-jz-esl"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="atu-Hj-kya" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="hkc-Mu-7CD" customClass="MainTabBarModuleInitializer" customModule="TheCat" customModuleProvider="target">
+                    <connections>
+                        <outlet property="mainTabBarViewController" destination="ocv-nb-AIN" id="K97-7x-0DR"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="891" y="846"/>
+        </scene>
+        <!--Usuarios-->
+        <scene sceneID="jD4-lF-JMt">
+            <objects>
+                <navigationController id="FlT-Do-40E" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Usuarios" image="person" catalog="system" id="VAH-Qf-aQM"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OxW-cj-rx2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="R9u-ex-q2Z" kind="relationship" relationship="rootViewController" id="Ppa-Q3-WtU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rHe-SH-n1q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1880" y="846"/>
+        </scene>
+        <!--UsersListViewController-->
+        <scene sceneID="VWH-vV-cUe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Users" referencedIdentifier="UsersListViewController" id="R9u-ex-q2Z" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Fmx-Nm-r9n"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1I-QU-KSK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2602" y="827"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
+    </resources>
+</document>
